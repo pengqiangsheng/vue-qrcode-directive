@@ -30,5 +30,42 @@ export default {
 
 ## options参数配置
 
+### 简易配置
 
+```js
+options: '我是二维码的内容'
+```
+即直接提供二维码的数据即可
 
+### 以对象的形式提供
+```js
+options: {
+  text: '我是二维码的内容',
+  render: "canvas",
+  width: 256,
+  height: 256,
+  typeNumber: -1,
+  correctLevel: 2,
+  background: "#ffffff",
+  foreground: "#000000"
+}
+```
+
+| 参数                   | 含义                          | 默认值        |
+| --------------------- | ----------------------------- | ------------- |
+| `text`                | 二维码中的内容                  | NA           |
+| `render`              | 渲染的方式，canvas或者table     | canvas       |
+| `width`               | 二维码的宽度                   | 256           |
+| `height`              | 二维码的高度                   | 256           |
+| `correctLevel`        | 校正级                        | 2             |
+| `typeNumber`          | 类型码                        | -1            |
+| `background`          | 背景色                        | #ffffff       |
+| `foreground`          | 前景色                        | #000000       |
+
+## qrcode核心解析器来源
+
+> 来自jeromeetienne的jquery-qrcode中的qrcode.js
+
+[jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)
+
+所以options的配置保持跟jquery-qrcode中的一样，可以自行前往查看。
