@@ -1,0 +1,15 @@
+{
+  "name": "vue-qrcode-directive",
+  "version": "1.0.0",
+  "description": "A QR code resolver that uses the form of vue instruction",
+  "repository": "https://github.com/pengqiangsheng/vue-qrcode-directive",
+  "homepage": "https://github.com/pengqiangsheng/vue-qrcode-directive",
+  "main": "index.js",
+  "author": "pqs 2945802136@qq.com",
+  "keywords": [
+    "vue-qrcode",
+    "qrcode",
+    "vue"
+  ],
+  "license": "MIT"
+}
