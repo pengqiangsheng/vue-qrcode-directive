@@ -1,5 +1,5 @@
-import QRCode from './qrcode'
-import { QRErrorCorrectLevel } from './qrcode'
+import QRCode from './src/lib/qrcode'
+import { QRErrorCorrectLevel } from './src/lib/qrcode'
 
 const generateQrCode = (options) => {
   // if options is string, 
