@@ -4,6 +4,14 @@
 
 # 使用
 
+## 安装
+
+```sh
+npm install vue-qrcode-directive --save
+or
+yarn add vue-qrcode-directive
+```
+
 ## 在main.js中注册
 
 ```js
