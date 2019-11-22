@@ -89,10 +89,7 @@ export default {
   install(Vue){
     Vue.directive('qr', {
       inserted: function(el, binding){
-        console.log('binding', binding)
-        const qrcode = generateQrCode(binding.value)
-        console.log('qrcode', qrcode)
-        el.appendChild(qrcode)
+        el.appendChild(generateQrCode(binding.value))
       }
     })
   }

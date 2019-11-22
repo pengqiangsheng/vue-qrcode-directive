@@ -66,6 +66,6 @@ options: {
 
 > 来自jeromeetienne的jquery-qrcode中的qrcode.js
 
-[jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)
+==> [点击前往 jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)
 
 所以options的配置保持跟jquery-qrcode中的一样，可以自行前往查看。
