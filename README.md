@@ -1,4 +1,8 @@
 # Vue-QRCode-Directive
+<a href="https://www.npmjs.com/package/vue-qrcode-directive"><img src="https://img.shields.io/npm/v/vue-qrcode-directive.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/vue-qrcode-directive"><img src="https://img.shields.io/npm/l/vue-qrcode-directive.svg" alt="License"></a>
+<a href="https://www.npmjs.com/package/vue-qrcode-directive"><img src="https://img.shields.io/david/dev/binaryify/vue-qrcode-directive.svg" alt="devDependencies" ></a>
+<a href="https://www.npmjs.com/package/vue-qrcode-directive"><img src="https://img.shields.io/david/binaryify/vue-qrcode-directive.svg" alt="devDependencies" ></a>
 
 > 一种使用Vue指令去解析二维码的插件
 
