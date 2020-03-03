@@ -80,3 +80,14 @@ options: {
 ==> [点击前往(Go to) jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)
 
 因此options的配置保持跟jquery-qrcode中的一样，可以自行前往查看。( So options are configured to stay the same as in jquery-qrcode, and you can go to check it yourself. )
+
+
+## 更新
+
+> 将生成二维码的方法导出，返回值为DOM对象。
+
+```js
+export {
+  generateQrCode
+}
+```
